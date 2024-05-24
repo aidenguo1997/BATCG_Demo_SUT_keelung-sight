@@ -5,7 +5,7 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>2.7.3</version>
+        <version>2.5.2</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.sight</groupId>
@@ -96,49 +96,6 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
             </plugin>
-
-            <!--<plugin>
-                <groupId>com.assertthat.plugins</groupId>
-                <artifactId>assertthat-bdd-maven-plugin</artifactId>
-                <version>1.6.3</version>
-                <configuration>
-                    <projectId>
-                        10000
-                    </projectId>
-                    <accessKey>
-                    </accessKey>
-                    <secretKey>
-                    </secretKey>
-                    <jiraServerUrl>https://mycompanyjira.com</jiraServerUrl>
-                </configuration>
-                <executions>
-                    <execution>
-                        <configuration>
-                            <outputFolder>src/test/resources/Feature</outputFolder>
-                            <jql>project = XX AND key in ('XXX-1')</jql>
-                            <mode>automated</mode>
-                        </configuration>
-                        <id>features</id>
-                        <goals>
-                            <goal>features</goal>
-                        </goals>
-                        <phase>pre-integration-test</phase>
-                    </execution>
-                    <execution>
-                        <id>report</id>
-                        <goals>
-                            <goal>report</goal>
-                        </goals>
-                        <phase>post-integration-test</phase>
-                        <configuration>
-                            <jsonReportFolder>target/report/surefire-reports/cucumber/</jsonReportFolder>
-                            <jsonReportIncludePattern>**/cucumber.json</jsonReportIncludePattern>
-                            <type>cucumber</type>
-                            <jql>project = XX AND key in ('XXX-1')</jql>
-                        </configuration>
-                    </execution>
-                </executions>
-            </plugin>-->
         </plugins>
     </build>
 
