@@ -9,7 +9,7 @@ import java.util.concurrent.atomic.AtomicBoolean;
 
 @Component
 public class EventHandler {
-    /*private volatile AtomicBoolean isInit = new AtomicBoolean(false);
+    private volatile AtomicBoolean isInit = new AtomicBoolean(false);
     @Autowired
     private SightRepository repository;
 
@@ -23,9 +23,9 @@ public class EventHandler {
         System.out.println("Insert data success");
     }
 
-    @EventListener(ContextClosedEvent.class)
+    /*@EventListener(ContextClosedEvent.class)
     public void handleContextCloseEvent(ContextClosedEvent e) {
         repository.deleteAll();
-        System.out.println("Delete data success");
-    }*/
+        System.out.println("Delete data success");*/
+    }
 }
