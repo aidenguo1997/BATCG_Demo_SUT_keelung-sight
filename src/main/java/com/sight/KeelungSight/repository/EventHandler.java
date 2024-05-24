@@ -26,6 +26,6 @@ public class EventHandler {
     /*@EventListener(ContextClosedEvent.class)
     public void handleContextCloseEvent(ContextClosedEvent e) {
         repository.deleteAll();
-        System.out.println("Delete data success");*/
-    }
+        System.out.println("Delete data success");
+    }*/
 }
